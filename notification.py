@@ -8,7 +8,7 @@ toast= Notification(
                     " For proper metabolism, a normal human body requires about two liters of water.",
             duration="short",
 
-            icon=r"C:\Users\hp\PycharmProjects\myproject\water.png")
+            icon=r"C:\Users\hp\PycharmProjects\myproject\icon.ico.png")
 toast.set_audio(audio.SMS,loop=True)
 while True:
     toast.show()
